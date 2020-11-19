@@ -85,8 +85,8 @@
 		<level value="INFO" />
 		<appender-ref ref="CANAL-ROOT" />
 	</logger>
-	<root level="WARN">
-		<!-- <appender-ref ref="STDOUT"/>  -->
+	<root level="DEBUG">
+	 	<appender-ref ref="STDOUT"/>
 		<appender-ref ref="CANAL-ROOT" />
 	</root>
 </configuration>
